@@ -1,0 +1,70 @@
+{
+  "store_name": "SuperMart Downtown",
+  "shelf_section": "Beverages - Soft Drinks",
+  "expected_products": [
+    {
+      "name": "Coca-Cola 500ml",
+      "position": "Row 1, Left",
+      "quantity": 12,
+      "price": "$2.99"
+    },
+    {
+      "name": "Pepsi 500ml",
+      "position": "Row 1, Center",
+      "quantity": 12,
+      "price": "$2.99"
+    },
+    {
+      "name": "Sprite 500ml",
+      "position": "Row 1, Right",
+      "quantity": 12,
+      "price": "$2.49"
+    },
+    {
+      "name": "Fanta Orange 500ml",
+      "position": "Row 2, Left",
+      "quantity": 10,
+      "price": "$2.49"
+    },
+    {
+      "name": "Mountain Dew 500ml",
+      "position": "Row 2, Center",
+      "quantity": 10,
+      "price": "$2.99"
+    },
+    {
+      "name": "7UP 500ml",
+      "position": "Row 2, Right",
+      "quantity": 10,
+      "price": "$2.49"
+    },
+    {
+      "name": "Dr Pepper 500ml",
+      "position": "Row 3, Left",
+      "quantity": 8,
+      "price": "$2.99"
+    },
+    {
+      "name": "Canada Dry Ginger Ale 500ml",
+      "position": "Row 3, Center",
+      "quantity": 8,
+      "price": "$2.49"
+    }
+  ],
+  "total_rows": 3,
+  "quality_requirements": [
+    "All products must face forward with labels clearly visible",
+    "No expired products on shelf",
+    "Proper spacing between products (2-3 cm)",
+    "Price tags must be visible and match product",
+    "No damaged or dirty packaging",
+    "Products should be aligned in straight rows",
+    "Stock should be rotated (FIFO - First In, First Out)",
+    "Shelf should be clean and dust-free"
+  ],
+  "compliance_thresholds": {
+    "minimum_stock_level": 3,
+    "maximum_neatness_score": 100,
+    "minimum_compliance_score": 70
+  }
+}
